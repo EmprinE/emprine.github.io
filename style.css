@@ -1,0 +1,56 @@
+body {
+    margin: auto;
+    max-width: 1280px;
+    min-width: 300px;
+    padding: 15px;
+    position: static;
+    font-family: Calibri;
+}
+
+div{
+    width: 100%;
+}
+
+.horizontal_page_block{
+    position: static;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(214, 230, 244);;
+}
+
+.flex_columns_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.resizable_horizontal_spacer{
+    flex: content;
+}
+
+#title_block_container{
+    background-color: rgb(24, 109, 43);
+    padding-bottom: 20px;
+}
+#title_block_container h1{
+    font-size: 40px;
+    color: rgb(214, 230, 244);
+    text-align: center;
+}
+
+
+#citazione_block_container{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+}
+
+#citazione_block_container p{
+    text-decoration: wavy;
+    font-family: Calibri;
+    max-width: 400px;
+}
